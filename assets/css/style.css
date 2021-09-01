@@ -95,7 +95,6 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav, .subnav {
@@ -191,7 +190,7 @@ html {
     position: relative;
     padding-top: 50%;
     margin-top: 45.33px;
-    background: url("../../assets/img/slider/slider2.jpg") top center / cover no-repeat;
+    background: url("../img/slider/slider2.jpg") top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -353,7 +352,7 @@ html {
     opacity: 0.8;
 }
 
-.contact-form a:hover {
+.contact-info a:hover {
     opacity: 1;
 }
 
@@ -398,9 +397,13 @@ html {
     color: rgba(0, 0, 0, 0.4);
 }
 
-#footer .copyright a {
+#footer .copyright {
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);   
 }
 
 .modal {
